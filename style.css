@@ -41,15 +41,16 @@ header button {
     bottom: 120px;
     height: 60px;
     width: 200px;
+    transition: 0.8s;
+    transition-timing-function: ease-out;
 }
 
 header button:hover{
     cursor: pointer;
     background-color: rgb(248, 187, 34);
     box-shadow: 5px 5px 10px black;
-    transform: translateY(-10px) translateX(5px);
-    transition: 0.4s;
-}
+    transform: translateY(10px) translateX(5px);
+ }
 
 button:active{
     background-color: black;
